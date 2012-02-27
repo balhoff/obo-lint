@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+
+<plugin>
+
+    <extension
+          id="OBOlint"
+          name="OBOlint"
+          point="org.protege.editor.core.application.ViewComponent">
+        <label value="OBOlint"/>
+        <class value="org.nescent.protege.obolint.OBOLintView"/>
+    </extension>
+
+</plugin>
+

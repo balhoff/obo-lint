@@ -222,9 +222,6 @@
         <attribute name="Build-Date" value = "${build.time}"/>
         <attribute name="Bundle-Version" value="${bundle.version}"/>
      </manifest>
-   	<copy todir="${classes}/META-INF/services">
-   	            <fileset dir="META-INF/services"/>
-   	        </copy>
    </target>
 
    <target name = "jar" depends = "compile, copy.resources">
